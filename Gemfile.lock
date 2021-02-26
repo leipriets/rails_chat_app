@@ -105,6 +105,7 @@ GEM
     nio4r (2.5.5)
     nokogiri (1.11.1-x64-mingw32)
       racc (~> 1.4)
+    pg (1.2.3-x64-mingw32)
     public_suffix (4.0.6)
     puma (3.12.6)
     racc (1.5.2)
@@ -139,6 +140,7 @@ GEM
     rb-fsevent (0.10.4)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
+    redis (4.2.5)
     regexp_parser (2.1.1)
     rubyzip (2.3.0)
     sass (3.7.4)
@@ -202,8 +204,10 @@ DEPENDENCIES
   hirb
   jbuilder (~> 2.5)
   jquery-rails
+  pg
   puma (~> 3.11)
   rails (~> 5.2.4)
+  redis (~> 4.0)
   sass-rails (~> 5.0)
   selenium-webdriver
   semantic-ui-sass
